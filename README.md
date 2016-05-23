@@ -40,7 +40,7 @@ def get_name_from_file(self, file):
   raise RequestError("Could not find the file attribute.")
 ```
 
-## Backup and Resore commands
+## Backup and Restore commands
 You can now backup a `/path/to/your/folder` with this command:
 ```
 duplicity /path/to/your/folder multi:///home/you/config.json
